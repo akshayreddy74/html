@@ -1,0 +1,95 @@
+<html>
+    <head> 
+        <style>
+            .parent{
+                width: 100%;
+                height: 100%;
+                background-color: blue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+            }
+            .child{
+                width: 30%;
+                height: 60%;
+                background-color: white;
+                border-radius: 20px;
+               
+
+            }
+
+            .feild{
+                width: 90%;
+                height: 40px;
+                margin: 10px 20px;
+                border-radius: 20px;
+                padding-left: 10px;
+                border: 1px solid gray;
+
+            }
+            .signin
+            {
+                width: 90%;
+                height: 40px;
+                margin: 10px 20px;
+                background-color: blue;
+                border-radius: 20px;
+                border: none;
+                text-transform: uppercase;
+                color: white;
+            }
+            .withgoogle
+            {
+                width: 90%;
+                height: 40px;
+                margin: 10px 20px;
+                background-color: red;
+                border-radius: 20px;
+                border: none;
+                text-transform: uppercase;
+                color: white;
+
+
+            }
+            .withfacebook
+            {
+                width: 90%;
+                height: 40px;
+                margin: 10px 20px;
+                background-color: darkblue;
+                border-radius: 20px;
+                border: none;
+                text-transform: uppercase;
+                color: white;
+            }
+
+            h1{
+                text-align: center;
+            }
+            input[type="checkbox"]
+            {
+                margin-left: 30px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child">
+                <h1>signin</h1>
+                <input type="text"value="emailaddress" class="feild"><br>
+                <input type="password"value="password" class="feild"><br>
+                <input type="checkbox"value="rememberpassword">remember password<br>
+                <button class="signin">sign in </button><br>
+                <button class="withgoogle">sign in with google</button><br>
+                <button class="withfacebook">signin with facebook</button>
+
+
+
+                
+            </div>
+        
+        </div>
+    </body>
+</html>
